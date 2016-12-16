@@ -1,0 +1,33 @@
+{
+  "name": "RohacekD/article",
+  "type": "library",
+  "description": "Coming soon",
+  "keywords": ["article", "nette"],
+  "authors": [
+	{
+	  "name": "Dominik Roháček"
+	}
+  ],
+  "autoload": {
+	"psr-4": {
+	  "RohacekD\\Article\\": "src/"
+	}
+  },
+  "autoload-dev": {
+	"psr-4": {
+	  "Ublaboo\\Article\\Tests\\": "tests"
+	}
+  },
+  "require": {
+	"nette/application" : "^2.3|^2.4",
+	"nette/utils"       : ">=2.3.10",
+	"nette/forms"       : "^2.3|^2.4"
+  },
+  "require-dev": {
+	"nette/tester"     : "^1.6.1",
+	"tracy/tracy"      : "^2.3.0",
+	"nextras/orm"      : "~2.0",
+	"doctrine/orm"	   : "~2.5",
+	"nette/database"   : "^2.3|^2.4"
+  }
+}
